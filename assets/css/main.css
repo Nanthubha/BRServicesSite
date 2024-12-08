@@ -145,19 +145,22 @@ h6 {
     }
 
         .header .logo img {
-            max-height: 32px;
+            max-height: 50px;
             margin-right: 8px;
         }
 
-        .header .logo h1 {
+        .header .logo label {
             font-size: 30px;
             margin: 0;
             font-weight: 700;
-            color: var(--heading-color);
+            color: #fff;
         }
 
 .scrolled .header {
     box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+.sitename{
+    color: #fff;
 }
 
 /* Global Header on Scroll
